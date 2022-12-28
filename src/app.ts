@@ -14,7 +14,7 @@ const deleteBtnListeners = (btn: HTMLButtonElement) => {
 
 const handleContainerDeletion = (e: MouseEvent) => {
 	const btn = e.target as HTMLButtonElement;
-	const btnsArray = [
+	const bt nsArray = [
 		...document.querySelectorAll('.delete-container-btn'),
 	] as HTMLButtonElement[];
 	const containers = [...document.querySelectorAll('.items-container')] as HTMLDivElement[];
