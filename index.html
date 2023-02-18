@@ -4,30 +4,30 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>trello</title>
+		<title>Trello clone</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<nav>
-			<a href="">Home</a>
-			<a href="">Workspace</a>
-			<a href="">Contact</a>
+			<a href="#">Home</a>
+			<a href="#">Workspace</a>
+			<a href="#">Contact</a>
 		</nav>
 
 		<div class="main-content">
 			<div class="items-container" draggable="true">
 				<div class="top-container">
-					<h2>current</h2>
+					<h2>Current</h2>
 					<button class="delete-container-btn">X</button>
 				</div>
 				<ul></ul>
 				<button class="add-item-btn">Add an item</button>
 				<form autocomplete="off">
 					<div class="top-form-container">
-						<label for="item-01">Add a new item</label>
-						<button type="button" class="close-item-btn">X</button>
+						<label for="item">Add a new item</label>
+						<button type="button" class="close-form-btn">X</button>
 					</div>
-					<input type="text" id="item-01" />
+					<input type="text" id="item" />
 					<span class="validation-msg"></span>
 					<button type="submit">Submit</button>
 				</form>
@@ -35,17 +35,17 @@
 
 			<div class="items-container" draggable="true">
 				<div class="top-container">
-					<h2>To Do</h2>
+					<h2>To do</h2>
 					<button class="delete-container-btn">X</button>
 				</div>
 				<ul></ul>
 				<button class="add-item-btn">Add an item</button>
 				<form autocomplete="off">
 					<div class="top-form-container">
-						<label for="item-02">Add a new item</label>
-						<button type="button" class="close-item-btn">X</button>
+						<label for="item">Add a new item</label>
+						<button type="button" class="close-form-btn">X</button>
 					</div>
-					<input type="text" id="item-02" />
+					<input type="text" id="item" />
 					<span class="validation-msg"></span>
 					<button type="submit">Submit</button>
 				</form>
@@ -60,10 +60,10 @@
 				<button class="add-item-btn">Add an item</button>
 				<form autocomplete="off">
 					<div class="top-form-container">
-						<label for="item-03">Add a new item</label>
-						<button type="button" class="close-item-btn">X</button>
+						<label for="item">Add a new item</label>
+						<button type="button" class="close-form-btn">X</button>
 					</div>
-					<input type="text" id="item-03" />
+					<input type="text" id="item" />
 					<span class="validation-msg"></span>
 					<button type="submit">Submit</button>
 				</form>
@@ -71,18 +71,18 @@
 
 			<div class="add-new-container">
 				<button class="add-container-btn">Add another container</button>
-				<form autocomplete="'off">
+				<form autocomplete="off">
 					<div class="top-form-container">
-						<label for="item-04">Add a new container</label>
-						<button type="button" class="close-item-btn">X</button>
+						<label for="new-container">Add a new container</label>
+						<button type="button" class="close-form-btn close-add-list">X</button>
 					</div>
-					<input type="text" id="item-04" />
+					<input type="text" id="new-container" />
 					<span class="validation-msg"></span>
 					<button type="submit">Submit</button>
 				</form>
 			</div>
 		</div>
 
-		<script type="text/javascript" src="./scripts/app.js"></script>
+		<script src="./scripts/app.js"></script>
 	</body>
 </html>
